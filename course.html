@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width", initial-scale="1.0">
+	<title>University Websit Design</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="font/css/font-awesome.min.css">
+	<!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--header section-->
+<header class="sub_header">
+	<nav>
+		<a href="index.html"><img src="images/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+	<i class="fa fa-times" onclick="hideMenu()" ></i>
+	<ul><li>
+	<a href="index.html">HOME</a></li>
+	<li><a href="about.html">ABOUT</a></li>
+   <li><a href="course.html">COURSE</a></li>
+   <li> <a href="blog.html">BLOG</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<div>
+	<h1>
+			OUR COURSE
+	</h1>		
+	</div>
+</header>
+<!--courses-->
+<section class="course-section">
+<div class="course">
+<h1>course sessions that fit your schedule</h1>
+<p>Explore popular programs from top institutions</p>	
+</div>
+<div class="row_cover">
+<div class="cour_col">
+	<h1>
+		Data Science
+	</h1>
+	<p>
+		What you will learn
+Fundamental R programming skills.
+Statistical concepts such as probability, inference, and modeling and how to apply them in practice
+Gain experience with the tidyverse, including data visualization with ggplot2 and data wrangling with dplyr.
+Implement machine learning algorithms.
+
+	</p>
+</div>
+<div class="cour_col">
+	<h1>Supply Chain Management</h1>
+	<p>
+		What you will learn
+To apply core methodologies (probability, statistics, optimization) used in supply chain modeling and analysis.
+To understand and use fundamental models to make trade-offs between forecasting, inventory, and transportation.
+To design supply chain networks as well as financial and information flows.
+To understand how supply chains act as systems and interact.
+
+</div>
+<div class="cour_col">
+	<h1> Python Programming</h1>
+	<p>
+		What you will learn
+The fundamental design cycle of computer science and computer programming: writing code, executing it, interpreting the results, and revising the code syntax based on the outcomes.
+Usage of the fundamental atoms of programming: variables, mathematical operators, logical operators, and boolean arithmetic.
+	</p>
+</div>	
+</div>
+<div class="row_cover">
+<div class="cour_col">
+	<h1>
+	CS for Artificial Intelligence
+	</h1>
+	<p>
+		What you will learn
+Machine learning
+Artificial intelligence principles
+How to design intelligent systems
+How to use AI in Python programs
+	</p>
+</div>
+<div class="cour_col">
+	<h1>MBA Core Curriculum</h1>
+	<p>
+		What you will learn
+Devise the right marketing strategy for your idea or firm
+Use the vast information available in the world today to gain insight, create a competitive edge, and avoid being tomorrow’s data breach headline
+</div>
+<div class="cour_col">
+	<h1> Project Management</h1>
+	<p>
+		What you will learn
+The tools and techniques to manage the comprehensive project management life cycle for a project - from initiation through closing.
+The ability to apply best practices across a variety of industries and businesses.
+
+	</p>
+</div>	
+</div>
+</section>
+<!--facilities-->
+<section class="facilities">
+	<div class="provid">
+<h1>Our Facilities</h1>
+<p>The use of University facilities shall be limited to lawful purposes consistent with the educational purposes of the University</p>	
+</div>
+<div class="row_cover">
+	<div class="fac_col">
+		<img src="images/library.png">
+		<h3>World class library</h3>
+		<p>The University Library’s priority is to serve student and faculty needs while protecting the health and safety of the campus community.</p>
+	</div>
+	<div class="fac_col">
+		<img src="images/basketball.png">
+		<h3>Largest Play Ground</h3>
+		<p>The US Department of Education's IPS Education Data System contains information on all 7,316 officially recognized institutions</p>
+	</div>
+	<div class="fac_col">
+		<img src="images/cafeteria.png">
+		<h3>Tasty and Healthy Food</h3>
+		<p>The University canteen’s priority is to serve student healthy food and faculty needs while protecting the health and safety of the campus community. </p>
+	</div>
+</div>	
+</section>
+
+<!--footer-->
+<footer class="footer">
+	<div class="about">
+		<h3> About Us</h3>
+<p>Prepare for your dream career with trusted culinary arts education against the stunning backdrop of the Rocky Mountains.</p>
+
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-whatsapp"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-linkedin"></i>
+
+	</div>
+</footer>
+
+<!--Java script for toggle menu-->
+<script >
+	var navLinks = document.getElementById("navLinks");
+	function showMenu() {
+		navLinks.style.left="0";
+	}
+	function hideMenu() {
+		navLinks.style.left="-200px";
+	}
+</script>
+</body>
+
+
+</html>
+

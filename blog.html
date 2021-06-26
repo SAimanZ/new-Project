@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width", initial-scale="1.0">
+	<title>University Websit Design</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="font/css/font-awesome.min.css">
+	<!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--header section-->
+<header class="sub_header">
+	<nav>
+		<a href="index.html"><img src="images/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+	<i class="fa fa-times" onclick="hideMenu()" ></i>
+	<ul><li>
+	<a href="index.html">HOME</a></li>
+	<li><a href="about.html">ABOUT</a></li>
+   <li><a href="course.html">COURSE</a></li>
+   <li> <a href="blog.html">BLOG</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<div>
+	<h1>
+			Certificate & Online Programs 
+	</h1>		
+	</div>
+</header>
+
+<!--- blog content for page-->
+<section class="blog">
+	<div class="row">
+	<div class="col">
+		<h3>Our Certificate & Online Programs For 2021 </h3>
+		<img src="images/bst.jpg">
+		<h2> Free Online Courses (Microsoft)</h2>
+		<p>These edX lectures are taught by Microsoft experts and are perfect for hands-on learners. Broaden your experience with cutting-edge technologies in areas like cloud services, mobile development, and data sciences. The classes can be audited for free by anyone starting from students to seasoned technologists. Build innovative applications, services, and experiences that will let you make a meaningful impact in today’s interconnected world.</p>
+		<h2>IT Training Certifications (Microsoft Learn) </h2>
+		<p>With hundreds of IT training programs, this academy makes it easy to find the apt course to elevate your career. The classes are divided based on your current experience level namely developers, IT pros, and data pros. You can get into database, web, cloud, game, or mobile development, virtualization, enterprise security, Azure, DevOps, business intelligence, advanced analytics, SQL server to name a few. There are classes designed specifically for beginners as well to help them get a solid start before focusing on a particular specialization.</p>
+		<h2> Lessons worth Sharing (TedEd Courses)</h2>
+		<p>One hidden gem not many know about is TedEd. Yes, that’s the same famous TED, but in this case, it’s a collection of the best courses and lessons to help everybody learn. You will find interesting lessons on topics such as Business & Economics, Literature & Language, Mathematics, Philosophy & Religion, Social Studies, and even Teaching & Education.</p>
+		<h2> Free Online Programs (MIT Open Courseware)</h2>
+		<p>This is the online hub of resources, materials, and videos on all various disciplines created by some of the world’s best academic and industrial experts. Explore topics as well as interdisciplinary subjects such as chemistry, calculus, entrepreneurship, energy, transportation, introduction to programming, and life science. By the end of your chosen class, you will be proficient in the concepts covered and be ready to apply them in industrial scenarios.</p>
+		<h2>Free Google Courses (Google)</h2>
+		<p>Being certified in various Google courses can help you build a strong portfolio or start your own journey in multiple fields like Digital Marketing, Cloud Computing, Mobile App Development, etc. To help you initiate your journey as a Google Certified individual, we have created this list of best Google certification courses that are offered by some of the well-known e-learning platforms like Coursera, Google Digital Garage, Google Analytics Academy, etc. Enrolling in these lessons will help you build a strong understanding of various digital marketing techniques, cloud storage, BigQuery, application Development, and much more. Furthermore, after completing each course with the given assignment, you will receive a certificate of completion that can be shared with employers or LinkedIn profile.</p>
+		<p>So that was our compilation of some of the best free websites where you can enhance and upgrade your skills with  Free Online Certifications. Hope one or more them helped you find what you were looking for. As we come across more good sources, we will keep adding the same to this list. For now, we wish you happy learning and hope that you keep growing 🙂 If you found this article nice and helpful, do spread word about it by sharing it in your network. We will keep updating this list with more courses that may help you.</p>
+	</div>	
+	<div class="col_right">
+		<div class="inner"><h1>We help you find the best courses.</h1>
+		
+	<input class="txt" type="text" name="search" placeholder="Search">
+	  
+	  <i class="fa fa-search" aria-hidden="true"></i></div>
+	</div>	
+	</div>
+	
+</section>
+<!--footer-->
+<footer class="footer">
+	<div class="about">
+		<h3> About Us</h3>
+<p>Prepare for your dream career with trusted culinary arts education against the stunning backdrop of the Rocky Mountains.</p>
+
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-whatsapp"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-linkedin"></i>
+
+	</div>
+</footer>
+
+<!--Java script for toggle menu-->
+<script >
+	var navLinks = document.getElementById("navLinks");
+	function showMenu() {
+		navLinks.style.left="0";
+	}
+	function hideMenu() {
+		navLinks.style.left="-200px";
+	}
+</script>
+</body>
+
+
+</html>
+

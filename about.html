@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width", initial-scale="1.0">
+	<title>University Websit Design</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="font/css/font-awesome.min.css">
+	<!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--header section-->
+<header class="sub_header">
+	<nav>
+		<a href="index.html"><img src="images/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+	<i class="fa fa-times" onclick="hideMenu()" ></i>
+	<ul><li>
+	<a href="index.html">HOME</a></li>
+	<li><a href="about.html">ABOUT</a></li>
+   <li><a href="course.html">COURSE</a></li>
+   <li> <a href="blog.html">BLOG</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<div>
+	<h1>
+			ABOUT US
+	</h1>		
+	</div>
+</header>
+<!--about us content-->
+<section class="ab_content">
+	<div class="row">
+	<div class="col_headlines">
+	<ul><li><h3>About Us</h3></li>
+	<ul><li>	
+<i class="fa fa-arrow-circle-right"></i>	
+Introduction</li>
+<li>	
+<i class="fa fa-arrow-circle-right"></i>	
+ History & Pride</li>
+<li>	
+<i class="fa fa-arrow-circle-right"></i>	
+Campuses</li>
+<li>	
+<i class="fa fa-arrow-circle-right"></i>	
+	
+Fact Books</li>
+<li>	
+<i class="fa fa-arrow-circle-right"></i>	
+Facilities</li>
+<li>
+<i class="fa fa-arrow-circle-right"></i>	
+Nobel Laureates</li>
+<li>
+<i class="fa fa-arrow-circle-right"></i>	
+Vision and Goals</li>
+<li>
+<i class="fa fa-arrow-circle-right"></i>	
+ Mission Statement</li>
+	</ul>
+	</div>	
+	<div class="col">
+		<h3>University Introduction</h3>
+		<img src="images/about.jpg">
+		<p>Established in Lahore in 1882, the University of Punjab is the largest and the oldest seat of higher learning in Pakistan. It was the first to be established in the sub-continent in a Muslim majority area.
+Located in the historical and culturally alive city of Lahore, this university has played a leading role in spreading higher education in the country. The University strives to provide a conducive environment for the pursuit of academic activities. On account of its highly qualified and internationalized faculty, pleasant environment, and low tuition fees, the university remains the institution of the first choice for students.
+The University comprises five campuses, 19 Faculties, 10 Constituent Colleges, and 137 departments, centers, and institutes. The University also has 658 affiliated colleges. It has 991 full-time/regular and 300 part-time faculty members involved in teaching/research and 49,520 on-campus students. (29,588 Morning, 18,838 Evening and 1,094 Diploma students).
+The University also has a summer campus at Khanaspur located at a height of about 7,000 feet in the Himalayan range near Ayubia. This campus, in addition to providing research facilities, is also used as a recreational center for the faculty and the students.
+The University has also established its sub-campuses at Gujranwala and Jhelum. Major disciplines at these campuses include Business Administration, Commerce, Law, and Information Technology. Newer disciplines are being added progressively to these campuses.</p>
+	</div>	
+		
+	</div>
+</section>
+
+<!--footer-->
+<footer class="footer">
+	<div class="about">
+		<h3> About Us</h3>
+<p>Prepare for your dream career with trusted culinary arts education against the stunning backdrop of the Rocky Mountains.</p>
+
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-whatsapp"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-linkedin"></i>
+
+	</div>
+</footer>
+
+<!--Java script for toggle menu-->
+<script >
+	var navLinks = document.getElementById("navLinks");
+	function showMenu() {
+		navLinks.style.left="0";
+	}
+	function hideMenu() {
+		navLinks.style.left="-200px";
+	}
+</script>
+</body>
+
+</html>
+
